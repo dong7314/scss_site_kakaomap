@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: $fontSizeNormal;
+  z-index: 0;
+
+  th {
+    padding: 20px 15px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  td {
+    padding: 15px;
+    vertical-align: middle;
+    font-weight: 300px;
+    color: $fontColorPrimary;
+    border-bottom: 1px solid $borderColor1;
+  }
+
+  .tbl-header {
+    background-color: $tableBg;
+  }
+
+  .tbl-content {
+    margin-top: 0;
+  }
+
+  & + .gbtn {
+    margin-top: 20px;
+    &.right {
+      float: right;
+    }
+  }
+}
