@@ -116,3 +116,11 @@ function autoType(elementClass, typingSpeed, innerText){
   }, 1500);
 };
 */
+
+/*
+// comma add function
+function addComma(value){
+      value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      return value;
+}
+*/
